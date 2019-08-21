@@ -1,8 +1,11 @@
-package com.kz.springdemo;
+package com.kz.springdemo.coaches;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+
+import com.kz.springdemo.interfaces.Coach;
+import com.kz.springdemo.interfaces.FortuneService;
 
 @Component
 public class FootballCoach implements Coach {

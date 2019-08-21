@@ -1,4 +1,4 @@
-package com.kz.springdemo;
+package com.kz.springdemo.coaches;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import com.kz.springdemo.interfaces.Coach;
+import com.kz.springdemo.interfaces.FortuneService;
 
 @Component
 

@@ -1,4 +1,4 @@
-package com.kz.springdemo;
+package com.kz.springdemo.interfaces;
 
 public interface Coach {
 	

@@ -1,6 +1,8 @@
-package com.kz.springdemo;
+package com.kz.springdemo.mainApp;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.kz.springdemo.interfaces.Coach;
 
 public class AnnotationDemoApp {
 

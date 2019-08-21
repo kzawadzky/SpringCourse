@@ -1,8 +1,10 @@
-package com.kz.springdemo;
+package com.kz.springdemo.fortuneServices;
 
 import java.util.Random;
 
 import org.springframework.stereotype.Component;
+
+import com.kz.springdemo.interfaces.FortuneService;
 
 @Component
 public class RandomFortuneService implements FortuneService {
