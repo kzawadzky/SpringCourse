@@ -24,7 +24,13 @@
 
 	<div id="containter">
 		<div id="content">
-
+			<!-- add button  -->
+			<br>
+			<input type="button" value="Add customer"
+					onclick="window.location.href='showFormForAdd'; return false;"	
+					class="add-button"
+			/>
+			<br>
 			<table>
 				<tr>
 					<th>First Name</th>
